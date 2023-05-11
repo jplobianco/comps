@@ -13,3 +13,8 @@ repos:
     rev: v8.16.1
     hooks:
       - id: gitleaks
+-   repo: https://github.com/jorisroovers/gitlint
+    rev: v0.13.1
+    hooks:
+      - id: gitlint
+        stages: [commit-msg]
